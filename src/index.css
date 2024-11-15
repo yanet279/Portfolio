@@ -7,3 +7,14 @@
 .font-size {
     font-size: xx-large;
 }
+
+#icon:hover {
+    color: #111 !important;
+}
+
+@media (min-width:768px) {
+    #icon {
+        width: 32px !important;
+        height: 32px !important;
+    }
+}

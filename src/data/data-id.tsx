@@ -1,4 +1,5 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Github, Mail, Phone } from "lucide-react";
+import "../index.css"
 import img1 from "../assets/imgProjects/project-1.png"
 import img2 from "../assets/imgProjects/project-2.png"
 import img3 from "../assets/imgProjects/project-3.png"
@@ -6,6 +7,9 @@ import img4 from "../assets/imgProjects/project-4.png"
 import img5 from "../assets/imgProjects/project-5.png"
 import img6 from "../assets/imgProjects/project-9.png"
 import img7 from "../assets/imgProjects/project-7.png"
+import iconMongo from "../assets/icons/icons8-mongodb.png"
+import iconEx from "../assets/icons/icons8-expresar-js-50.png"
+import iconSql from "../assets/icons/icons8-base-de-datos-40.png"
 
 export const socialNetworks = [
     {
@@ -59,25 +63,25 @@ export const itemsNavbar = [
     {
         id: 1,
         title: "Home",
-        icon: <HomeIcon size={25} color="#11111899" strokeWidth={1} />,
+        icon: <HomeIcon size={25} color="#111118" id="icon" strokeWidth={1} />,
         link: "/",
     },
     {
         id: 2,
         title: "User",
-        icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
+        icon: <UserRound size={25} id="icon" strokeWidth={1} />,
         link: "/about-me",
     },
     {
         id: 3,
         title: "Target",
-        icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
+        icon: <CodeSquare size={25} id="icon" strokeWidth={1} />,
         link: "/portfolio",
     },
     {
         id: 4,
         title: "Book",
-        icon: <BookText size={25} color="#fff" strokeWidth={1} />,
+        icon: <BookText size={25} id="icon" strokeWidth={1} />,
         link: "/services",
     },
 ];
@@ -181,7 +185,8 @@ export const dataPortfolio = [
             <i className="fa-brands fa-html5 fa-2xl"></i>,
             <i className="fa-brands fa-css3-alt fa-2xl"></i>,
             <i className="fa-brands fa-js fa-2xl"></i>,
-            <i className="fa-brands fa-python fa-2xl"></i>
+            <i className="fa-brands fa-python fa-2xl"></i>,
+            <img src={iconSql} alt="sql" className="w-8 h-8"/>
         ],
     },
     {
@@ -203,9 +208,13 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/yanet279/jugueteria-cosmica-node.git",
         urlDemo: "https://jugueteria-cosmica.vercel.app/",
         technology: [
-            <i className="fa-brands fa-react fa-2xl"></i>,
             <i className="fa-brands fa-html5 fa-2xl"></i>,
-            <i className="fa-brands fa-css3-alt fa-2xl"></i>
+            <i className="fa-brands fa-css3-alt fa-2xl"></i>,
+            <i className="fa-brands fa-js fa-2xl"></i>,
+            <i className="fa-brands fa-sass fa-2xl"></i>,
+            <i className="fa-brands fa-node fa-2xl"></i>,
+            <img src={iconEx} alt="Express" className="w-9 h-9"/>,
+            <img src={iconMongo} alt="MongoDB" className="w-9 h-8 -ml-2 -mr-1" key="mongo"/>
         ],
     },
 ];
