@@ -1,5 +1,4 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Github, Mail, Phone } from "lucide-react";
-import "../index.css"
 import img1 from "../assets/imgProjects/project-1.png"
 import img2 from "../assets/imgProjects/project-2.png"
 import img3 from "../assets/imgProjects/project-3.png"
