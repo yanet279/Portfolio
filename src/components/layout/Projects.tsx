@@ -1,6 +1,5 @@
 import { LucideGithub } from "lucide-react"
 import { dataPortfolio} from "../../data/data-id"
-import "../../../fontawesome/css/all.min.css"
 
 export const Projects = () => {
 
