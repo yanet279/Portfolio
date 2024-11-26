@@ -62,26 +62,26 @@ export const itemsNavbar = [
     {
         id: 1,
         title: "Home",
-        icon: <HomeIcon size={25} color="#111118" id="icon" strokeWidth={1} />,
-        link: "/",
+        icon: <HomeIcon size={25} id="icon" strokeWidth={1} />,
+        link: "#home",
     },
     {
         id: 2,
         title: "User",
         icon: <UserRound size={25} id="icon" strokeWidth={1} />,
-        link: "/about-me",
+        link: "#aboutMe",
     },
     {
         id: 3,
         title: "Target",
         icon: <CodeSquare size={25} id="icon" strokeWidth={1} />,
-        link: "/portfolio",
+        link: "#project",
     },
     {
         id: 4,
         title: "Book",
         icon: <BookText size={25} id="icon" strokeWidth={1} />,
-        link: "/services",
+        link: "#education",
     },
 ];
 

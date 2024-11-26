@@ -12,7 +12,7 @@ export const Header = () => {
 
     return (
         <MotionTransition position="bottom" className="absolute z-40 inline-block w-full top-5">
-            <header className="px-10">
+            <header className="px-10 z-30">
                 <div className="container justify-between max-w-6xl mx-auto md:flex">
                     <Link to='/'>
                         <h1 className="my-3 text-4xl font-bold text-center md:text-left">
