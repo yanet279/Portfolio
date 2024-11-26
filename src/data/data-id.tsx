@@ -14,7 +14,7 @@ export const socialNetworks = [
     {
         id: 1,
         logo: <Mail size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "mailto:sol3127g@gmail.com",
     },
     {
         id: 2,
