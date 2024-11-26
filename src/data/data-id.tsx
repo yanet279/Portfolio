@@ -24,7 +24,7 @@ export const socialNetworks = [
     {
         id: 2,
         logo: <Phone size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "tel:+541128564432",
     },
     {
         id: 4,
