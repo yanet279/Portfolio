@@ -48,7 +48,7 @@ const Navbar = () => {
                         atScrollEnd ? 'bg-white/15 h-[60px] md:h-[70px] lg:h-20 items-center justify-center bottom-0' : 'justify-end top-56 pr-3 lg:pr-4'
                     }`}
                 >
-                    <nav>
+                    <nav className="flex h-[55px] items-center">
                         <div
                             className={`flex gap-2 rounded-full backdrop-blur-sm ${
                                 atScrollEnd
