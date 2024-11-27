@@ -45,7 +45,7 @@ const Navbar = () => {
             {showNavbar && (
                 <MotionTransition position="right"
                     className={`fixed z-50 flex w-full mt-auto h-max ${
-                        atScrollEnd ? 'bg-white/15 h-[74px] lg:h-24 items-center justify-center bottom-0' : 'justify-end top-56 pr-3 lg:pr-4'
+                        atScrollEnd ? 'bg-white/15 h-[60px] md:h-[70px] lg:h-20 items-center justify-center bottom-0' : 'justify-end top-56 pr-3 lg:pr-4'
                     }`}
                 >
                     <nav>
