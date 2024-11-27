@@ -8,7 +8,7 @@ export const Projects = () => {
             <h2 className="text-[28px] mb-8 font-bold text-secondary">Proyectos</h2>
             <div className="flex flex-col lm:flex-wrap gap-8 md:gap-6 lm:flex-row items-center lm:items-stretch lm:justify-center">
                 {dataPortfolio.map((data) => (
-                    <div key={data.id} className="border w-[70vw] border-[#69707c9d] relative px-6 pt-6 pb-7 rounded-2xl sm:px-[35px] sm:pb-8 lm:w-[37.5vw] lm:px-6 lm:pt-6 lm:pb-7 lx:w-[32.2vw] xl:w-[23.2vw]">
+                    <div key={data.id} className="border w-[80vw] sm:w-[70vw] border-[#69707c9d] relative px-6 pt-6 pb-7 rounded-2xl sm:px-[35px] sm:pb-8 lm:w-[37.5vw] lm:px-6 lm:pt-6 lm:pb-7 lx:w-[32.2vw] xl:w-[23.2vw]">
                         <div className="font-semibold text-lg">
                             <a href={data.urlDemo} target="_blank">{data.title}</a>
                         </div>

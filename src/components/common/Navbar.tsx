@@ -58,8 +58,8 @@ const Navbar = () => {
                         >
                             {itemsNavbar.map((item) => (
                                 <div key={item.id}
-                                    className={`px-2 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary`}
-                                    onClick={() => handleScrollToSection(item.link)} // Manejador de clic
+                                    className={`px-1 py-1 sm:px-2 sm:py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary`}
+                                    onClick={() => handleScrollToSection(item.link)}
                                 >
                                     {item.icon}
                                 </div>

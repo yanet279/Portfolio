@@ -128,9 +128,9 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/yanet279/in-venty.git",
         urlDemo: "https://in-venty.netlify.app/",
         technology: [
-            <i className="fa-brands fa-html5 fa-2xl"></i>,
-            <i className="fa-brands fa-css3-alt fa-2xl"></i>,
-            <i className="fa-brands fa-js fa-2xl"></i>,
+            <i className="fa-brands fa-html5 w-7 h-7 sm:w-9 sm:h-9"></i>,
+            <i className="fa-brands fa-css3-alt w-7 h-7 sm:w-9 sm:h-9"></i>,
+            <i className="fa-brands fa-js w-7 h-7 sm:w-9 sm:h-9"></i>,
         ],
     },
     {
@@ -141,9 +141,9 @@ export const dataPortfolio = [
         urlGithub: "#!",
         urlDemo: "https://sweethome-grupo4.netlify.app/",
         technology: [
-            <i className="fa-brands fa-react fa-2xl"></i>,
-            <i className="fa-brands fa-html5 fa-2xl"></i>,
-            <i className="fa-brands fa-css3-alt fa-2xl"></i>
+            <i className="fa-brands fa-react w-7 h-7 sm:w-9 sm:h-9"></i>,
+            <i className="fa-brands fa-html5 w-7 h-7 sm:w-9 sm:h-9"></i>,
+            <i className="fa-brands fa-css3-alt w-7 h-7 sm:w-9 sm:h-9"></i>
         ],
     },
     {
@@ -154,9 +154,9 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/yanet279/poke-api-fetch.git",
         urlDemo: "https://poke-api-fetch.netlify.app/",
         technology: [
-            <i className="fa-brands fa-html5 fa-2xl"></i>,
-            <i className="fa-brands fa-css3-alt fa-2xl"></i>,
-            <i className="fa-brands fa-js fa-2xl"></i>,
+            <i className="fa-brands fa-html5 w-7 h-7 sm:w-9 sm:h-9"></i>,
+            <i className="fa-brands fa-css3-alt w-7 h-7 sm:w-9 sm:h-9"></i>,
+            <i className="fa-brands fa-js w-7 h-7 sm:w-9 sm:h-9"></i>,
         ],
     },
     {
@@ -167,10 +167,10 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/yanet279/proyecto-final_23084.git",
         urlDemo: "https://codoacodo.alonein.online/",
         technology: [
-            <i className="fa-brands fa-html5 fa-2xl"></i>,
-            <i className="fa-brands fa-css3-alt fa-2xl"></i>,
-            <i className="fa-brands fa-js fa-2xl"></i>,
-            <i className="fa-brands fa-php fa-2xl"></i>,
+            <i className="fa-brands fa-html5 w-7 h-7 sm:w-9 sm:h-9"></i>,
+            <i className="fa-brands fa-css3-alt w-7 h-7 sm:w-9 sm:h-9"></i>,
+            <i className="fa-brands fa-js w-7 h-7 sm:w-9 sm:h-9"></i>,
+            <i className="fa-brands fa-php w-7 h-7 sm:w-9 sm:h-9"></i>,
         ],
     },
     {
@@ -181,11 +181,11 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/yanet279/de_punta_a_punta.git",
         urlDemo: "https://depuntaapunta.netlify.app/",
         technology: [
-            <i className="fa-brands fa-html5 fa-2xl"></i>,
-            <i className="fa-brands fa-css3-alt fa-2xl"></i>,
-            <i className="fa-brands fa-js fa-2xl"></i>,
-            <i className="fa-brands fa-python fa-2xl"></i>,
-            <img src={iconSql} alt="sql" className="w-8 h-8"/>
+            <i className="fa-brands fa-html5 w-7 h-7 sm:w-9 sm:h-9"></i>,
+            <i className="fa-brands fa-css3-alt w-7 h-7 sm:w-9 sm:h-9"></i>,
+            <i className="fa-brands fa-js w-7 h-7 sm:w-9 sm:h-9"></i>,
+            <i className="fa-brands fa-python w-7 h-7 sm:w-9 sm:h-9"></i>,
+            <img src={iconSql} alt="sql" className="w-7 h-7 sm:w-9 sm:h-9"/>
         ],
     },
     {
@@ -196,7 +196,7 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/yanet279/Esp32-Protoboard_TP_Electronica.git",
         urlDemo: "https://wokwi.com/projects/367295625856084993",
         technology: [
-            <i className="fa-brands fa-python fa-2xl"></i>
+            <i className="fa-brands fa-python w-7 h-7 sm:w-9 sm:h-9"></i>
         ],
     },
     {
@@ -207,13 +207,13 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/yanet279/jugueteria-cosmica-node.git",
         urlDemo: "https://jugueteria-cosmica.vercel.app/",
         technology: [
-            <i className="fa-brands fa-html5 fa-2xl"></i>,
-            <i className="fa-brands fa-css3-alt fa-2xl"></i>,
-            <i className="fa-brands fa-js fa-2xl"></i>,
-            <i className="fa-brands fa-sass fa-2xl"></i>,
-            <i className="fa-brands fa-node fa-2xl"></i>,
-            <img src={iconEx} alt="Express" className="w-9 h-9"/>,
-            <img src={iconMongo} alt="MongoDB" className="w-9 h-8 -ml-2 -mr-1" key="mongo"/>
+            <i className="fa-brands fa-html5 w-7 h-7 sm:w-8 sm:h-8"></i>,
+            <i className="fa-brands fa-css3-alt w-7 h-7 sm:w-8 sm:h-8"></i>,
+            <i className="fa-brands fa-js w-7 h-7 sm:w-8 sm:h-8"></i>,
+            <i className="fa-brands fa-sass w-7 h-7 sm:w-8 sm:h-8"></i>,
+            <i className="fa-brands fa-node w-7 h-7 sm:w-8 sm:h-8"></i>,
+            <img src={iconEx} alt="Express" className="w-7 h-7 sm:w-8 sm:h-8"/>,
+            <img src={iconMongo} alt="MongoDB" className="w-7 h-7 sm:w-8 sm:h-8 -ml-2 -mr-1" key="mongo"/>
         ],
     },
 ];
