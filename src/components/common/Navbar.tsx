@@ -45,15 +45,15 @@ const Navbar = () => {
             {showNavbar && (
                 <MotionTransition position="right"
                     className={`fixed z-50 flex w-full mt-auto h-max ${
-                        atScrollEnd ? ' bg-[#2c1f31c2] dark:bg-white/15 h-[60px] md:h-[70px] lg:h-20 items-center justify-center bottom-0' : 'justify-end top-56 pr-3 lg:pr-4'
+                        atScrollEnd ? ' bg-[#2c1f31c2] dark:bg-white/15 h-[60px] md:h-[70px] lg:h-20 items-center justify-center bottom-0' : 'justify-end top-56 pr-2 sm:pr-3 lg:pr-4'
                     }`}
                 >
                     <nav className="flex h-[55px] items-center">
                         <div
-                            className={`flex gap-2 rounded-full backdrop-blur-sm ${
+                            className={`flex gap-2 rounded-full backdrop-blur-sm my-auto ${
                                 atScrollEnd
                                     ? 'bg-transparent lg:bg-transparent items-center justify-center flex-row'
-                                    : 'bg-[#2c1f31c2] dark:bg-white/15 flex-col px-2 py-2'
+                                    : 'bg-[#2c1f31c2] dark:bg-white/15 flex-col px-1 py-2 sm:px-2'
                             }`}
                         >
                             {itemsNavbar.map((item) => (

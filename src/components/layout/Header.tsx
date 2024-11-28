@@ -7,10 +7,10 @@ import { Moon, Sun } from "lucide-react";
 
 export const Header: React.FC = () => {
     const { theme, toggleTheme } = useTheme();
-  
+
     useEffect(() => {
-      document.documentElement.classList.remove('light', 'dark');
-      document.documentElement.classList.add(theme);
+        document.documentElement.classList.remove('light', 'dark');
+        document.documentElement.classList.add(theme);
     }, [theme]);
 
     const scrollTo = (id: string) => {
@@ -38,11 +38,11 @@ export const Header: React.FC = () => {
                     </div>
                 </div>
             </header>
-            <div className="absolute cursor-pointer top-[18px] z-50 right-6 md:top-4 md:right-[56px] border-2 hover:text-orange-200 border-black hover:border-[#2c1f31] hover:bg-[#2c1f31] dark:border-white dark:hover:border-secondary dark:hover:bg-secondary dark:hover:text-gray-900 rounded-full p-1 sm:p-1.5">
+            <div className="absolute cursor-pointer top-[18px] z-50 right-6 md:top-4 md:right-[56px] border-2 hover:text-[#d9b0e9] border-black hover:border-[#2c1f31] hover:bg-[#2c1f31] dark:border-white dark:hover:border-secondary dark:hover:bg-secondary dark:hover:text-gray-900 rounded-full p-1 sm:p-1.5">
             {theme === 'dark' ? (
             <Sun onClick={toggleTheme} className="text-white dark:hover:text-gray-900 w-5 h-5 sm:w-7 sm:h-7"/>
             ) : (
-            <Moon onClick={toggleTheme} className="w-5 h-5 sm:w-7 sm:h-7 "/>
+            <Moon onClick={toggleTheme} className="w-5 h-5 sm:w-7 sm:h-7"/>
             )}
         </div>
         </MotionTransition>
