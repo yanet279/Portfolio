@@ -26,9 +26,9 @@ export const Header: React.FC = () => {
                 <div className="container max-w-6xl mx-auto md:flex md:justify-between">
                     <Link to='/'>
                         <div className="mt-3 flex mb-6 text-4xl pl-5 sp:text-center md:text-left md:text-[40px] lg:text-[50px]">
-                            <div className="dark:text-pink-100 text-[50px] sm:text-[59px] font-semibold">&lt;</div>
-                            <div className="dark:text-[#faa1a1] text-[35px] sm:text-[45px] font-medium -mt-0.5 -ml-0.5 sm:-mt-1 sm:-ml-0.5">&#47;</div>
-                            <div className="dark:text-[#f3297d] text-[32px] sm:text-[42px] font-semibold -ml-[2.5px] -mt-0.5 sm:-mt-[1px] sm:-ml-[5px]">&gt;</div>
+                            <div className="dark:text-[#ffcceb] text-[50px] sm:text-[59px] font-semibold">&lt;</div>
+                            <div className="dark:text-secondary text-[35px] sm:text-[45px] font-medium -mt-0.5 -ml-0.5 sm:-mt-1 sm:-ml-0.5">&#47;</div>
+                            <div className="dark:text-[#fd42b5] text-[32px] sm:text-[42px] font-semibold -ml-[2.5px] -mt-0.5 sm:-mt-[1px] sm:-ml-[5px]">&gt;</div>
                         </div>
                     </Link>
                     <div className="flex items-center justify-center gap-6 sm:gap-7">
