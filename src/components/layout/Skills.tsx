@@ -19,8 +19,8 @@ import img17 from "../../assets/skills/icons8-github-144.png"
 
 export const Skills = () => {
     return (
-        <div id="skills">
-            <h2 className="text-[28px] font-bold text-secondary mb-8">Habilidades</h2>
+        <div id="skills" className="z-50">
+            <h2 className="text-[28px] font-bold text-tercero dark:text-secondary mb-8">Habilidades</h2>
             <div className="flex flex-wrap gap-7 md:gap-9 justify-center">
                 <p className="text-center text-[14px] sm:text-[16px]"><img src={img1} alt="html" className="w-[70px] h-[70px] md:w-[85px] md:h-[85px]"/>HTML</p>
                 <p className="text-center text-[14px] sm:text-[16px]"><img src={img2} alt="css" className="w-[70px] h-[70px] md:w-[85px] md:h-[85px]"/>CSS</p>

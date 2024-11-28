@@ -11,17 +11,17 @@ export const Header = () => {
 	};
 
     return (
-        <MotionTransition position="bottom" className="absolute z-40 inline-block w-full top-5">
-            <header className="sm:px-10 z-30">
-                <div className="container justify-between max-w-6xl mx-auto md:flex">
+        <MotionTransition position="bottom" className="absolute z-40 inline-block w-full top-3">
+            <header className="sm:pl-10 z-30 md:w-[80%]">
+                <div className="container max-w-6xl mx-auto md:flex md:justify-between">
                     <Link to='/'>
-                        <h1 className="my-3 text-4xl font-bold text-center md:text-left">
+                        <h1 className="mt-3 mb-5 text-4xl font-bold pl-5 sp:text-center md:text-left md:text-[40px] lg:text-[50px]">
                             &lt;&#47;&gt;
                         </h1>
                     </Link>
                     <div className="flex items-center justify-center gap-6 sm:gap-7">
                         {itemsMenu.map(({ title, src, id }) => (
-                            <div key={id} className='cursor-pointer text-[15px] sm:text-[16px] menuText hover:text-secondary' onClick={() => { scrollTo(src);}}>
+                            <div key={id} className='cursor-pointer font-medium text-[15px] sm:text-[16px] menuText hover:text-tercero dark:hover:text-secondary lg:text-[18px]' onClick={() => { scrollTo(src);}}>
                                 {title}
                             </div>
                         ))}

@@ -9,6 +9,9 @@ import img7 from "../assets/imgProjects/project-7.png"
 import iconMongo from "../assets/icons/icons8-mongodb.png"
 import iconEx from "../assets/icons/icons8-expresar-js-50.png"
 import iconSql from "../assets/icons/icons8-base-de-datos-40.png"
+import iconEx2 from "../assets/icons/icons8-expresar-js.png"
+import iconMongo2 from "../assets/icons/icons8-mongo-db.png"
+import iconSql2 from "../assets/icons/icons8-base-de-datos.png"
 
 export const socialNetworks = [
     {
@@ -185,7 +188,8 @@ export const dataPortfolio = [
             <i className="fa-brands fa-css3-alt w-7 h-7 sm:w-9 sm:h-9"></i>,
             <i className="fa-brands fa-js w-7 h-7 sm:w-9 sm:h-9"></i>,
             <i className="fa-brands fa-python w-7 h-7 sm:w-9 sm:h-9"></i>,
-            <img src={iconSql} alt="sql" className="w-7 h-7 sm:w-9 sm:h-9"/>
+            <img src={iconSql} alt="sql" className="hidden dark:block w-7 h-7 sm:w-9 sm:h-9"/>,
+            <img src={iconSql2} alt="sql" className="dark:hidden w-7 h-7 sm:w-9 sm:h-9"/>
         ],
     },
     {
@@ -212,8 +216,10 @@ export const dataPortfolio = [
             <i className="fa-brands fa-js w-7 h-7 sm:w-8 sm:h-8"></i>,
             <i className="fa-brands fa-sass w-7 h-7 sm:w-8 sm:h-8"></i>,
             <i className="fa-brands fa-node w-7 h-7 sm:w-8 sm:h-8"></i>,
-            <img src={iconEx} alt="Express" className="w-7 h-7 sm:w-8 sm:h-8"/>,
-            <img src={iconMongo} alt="MongoDB" className="w-7 h-7 sm:w-8 sm:h-8 -ml-2 -mr-1" key="mongo"/>
+            <img src={iconEx} alt="Express" className="w-7 hidden dark:block h-7 sm:w-8 sm:h-8"/>,
+            <img src={iconMongo} alt="MongoDB" className="w-7 hidden dark:block h-7 sm:w-8 sm:h-8 -ml-2 -mr-1" key="mongo"/>,
+            <img src={iconEx2} alt="Express" className="w-7 dark:hidden h-7 sm:w-8 sm:h-8"/>,
+            <img src={iconMongo2} alt="MongoDB" className="w-7 dark:hidden h-7 sm:w-8 sm:h-8 -ml-2 -mr-1" key="mongo"/>,
         ],
     },
 ];

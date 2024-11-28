@@ -45,7 +45,7 @@ const Navbar = () => {
             {showNavbar && (
                 <MotionTransition position="right"
                     className={`fixed z-50 flex w-full mt-auto h-max ${
-                        atScrollEnd ? 'bg-white/15 h-[60px] md:h-[70px] lg:h-20 items-center justify-center bottom-0' : 'justify-end top-56 pr-3 lg:pr-4'
+                        atScrollEnd ? ' bg-[#2c1f31c2] dark:bg-white/15 h-[60px] md:h-[70px] lg:h-20 items-center justify-center bottom-0' : 'justify-end top-56 pr-3 lg:pr-4'
                     }`}
                 >
                     <nav className="flex h-[55px] items-center">
@@ -53,12 +53,12 @@ const Navbar = () => {
                             className={`flex gap-2 rounded-full backdrop-blur-sm ${
                                 atScrollEnd
                                     ? 'bg-transparent lg:bg-transparent items-center justify-center flex-row'
-                                    : 'bg-white/15 flex-col px-2 py-2'
+                                    : 'bg-[#2c1f31c2] dark:bg-white/15 flex-col px-2 py-2'
                             }`}
                         >
                             {itemsNavbar.map((item) => (
                                 <div key={item.id}
-                                    className={`px-1 py-1 sm:px-2 sm:py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary`}
+                                    className={`px-1 py-1 sm:px-2 sm:py-2 transition duration-150 rounded-full cursor-pointer hover:bg-[#d9b0e9] dark:hover:bg-secondary text-white`}
                                     onClick={() => handleScrollToSection(item.link)}
                                 >
                                     {item.icon}
