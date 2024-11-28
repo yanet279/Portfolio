@@ -27,7 +27,7 @@ export const Header: React.FC = () => {
                     <Link to='/'>
                         <div className="mt-3 flex mb-6 text-4xl pl-5 sp:text-center md:text-left md:text-[40px] lg:text-[50px]">
                             <div className="dark:text-[#ffcceb] text-[50px] sm:text-[59px] font-semibold">&lt;</div>
-                            <div className="dark:text-secondary text-[35px] sm:text-[45px] font-medium -mt-0.5 -ml-0.5 sm:-mt-1 sm:-ml-0.5">&#47;</div>
+                            <div className="dark:text-secondary text-[35px] sm:text-[45px] font-medium -mt-0.5 sm:-mt-1 sm:-ml-0.5">&#47;</div>
                             <div className="dark:text-[#fd42b5] text-[32px] sm:text-[42px] font-semibold -ml-[2.5px] -mt-0.5 sm:-mt-[1px] sm:-ml-[5px]">&gt;</div>
                         </div>
                     </Link>
