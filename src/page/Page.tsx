@@ -9,8 +9,8 @@ import { Skills } from "../components/layout/Skills"
 
 export const Page = () => {
     return (
-        <div className="relative flex flex-col py-40 bg-[#f5c7b2] dark:bg-black dark:text-white ">
-            <div className="absolute inset-0 bg-white dark:bg-[#ff3bef] bg-[size:20px_20px] opacity-20 blur-[220px] lg:blur-[350px]"></div>
+        <div className="relative flex flex-col py-40 bg-[#f5c7b2] dark:bg-[#130a11] dark:text-white ">
+            <div className="absolute inset-0 bg-white dark:bg-[#ff3bef] bg-[size:20px_20px] opacity-20 blur-[180px] lg:blur-[350px]"></div>
             <Header />
             <div className="flex flex-col px-7 sm:px-10 md:px-16 lg:px-40 gap-24">
                 <Introduction />
