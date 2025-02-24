@@ -40,13 +40,13 @@ export const Header: React.FC = () => {
                     </div>
                 </div>
             </header>
-            <div className="absolute cursor-pointer top-[18px] z-50 right-6 md:top-4 md:right-[56px] border-2 hover:text-[#d9b0e9] border-black hover:border-[#2c1f31] hover:bg-[#2c1f31] dark:border-white dark:hover:border-secondary dark:hover:bg-secondary dark:hover:text-gray-900 rounded-full p-1 sm:p-1.5">
-            {theme === 'dark' ? (
-            <Sun onClick={toggleTheme} className="text-white dark:hover:text-gray-900 w-6 h-6 sm:w-7 sm:h-7"/>
-            ) : (
-            <Moon onClick={toggleTheme} className="w-6 h-6 sm:w-7 sm:h-7"/>
-            )}
-        </div>
+            <div className="absolute cursor-pointer top-[18px] z-50 right-6 md:top-4 md:right-[56px]">
+                {theme === 'dark' ? (
+                <Sun onClick={toggleTheme} className="text-white dark:hover:text-gray-900 w-[35px] h-[35px] sm:w-10 sm:h-10 xl:w-11 xl:h-11 p-1 sm:p-1.5 rounded-full border-white border-2 hover:bg-secondary hover:border-secondary hover:text-gray-900"/>
+                ) : (
+                <Moon onClick={toggleTheme} className="w-[35px] h-[35px] sm:w-10 sm:h-10 xl:w-11 xl:h-11 p-1 sm:p-1.5 border-2 border-black hover:text-[#d9b0e9] hover:border-[#2c1f31] hover:bg-[#2c1f31] rounded-full"/>
+                )}
+            </div>
         </MotionTransition>
     )
 }
