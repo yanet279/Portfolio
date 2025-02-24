@@ -92,7 +92,7 @@ export const dataAboutPage = [
     {
         id: 1,
         title: "Universidad Nacional de La Matanza",
-        subtitle: "Ingeniería en Electrónica",
+        subtitle: "Ingeniería en Informática",
         date: "Ago 2018 - Actual",
     },
     {
